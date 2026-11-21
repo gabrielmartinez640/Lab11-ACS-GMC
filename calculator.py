@@ -1,4 +1,4 @@
-# the other thing i have to put
+#https://github.com/gabrielmartinez640/Lab11-ACS-GMC
 #Partner 1: Gabriel Martinez
 #Partner 2: Arianna Casanova-Silva
 
