@@ -41,7 +41,7 @@ class TestCalculator(unittest.TestCase):
             logarithm(1, 5)
 
 
-    def test_log_invalid_exponent(self):
+    def test_log_invalid_argument(self):
         with self.assertRaises(ValueError):
             logarithm(2,0)
         with self.assertRaises(ValueError):
