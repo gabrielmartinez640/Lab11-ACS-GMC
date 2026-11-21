@@ -24,21 +24,18 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             divide(0,7)
 
+    def test_divide_by_zero(self):
+        with self.assertRaises(ZeroDivisionError):
+            div(0, 5)
 
-    ######## Partner 2
-    # def test_divide_by_zero(self): # 1 assertion
-    #     # call division function inside, example:
-    #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
-    #     #     div(0, 5)
-    #     fill in code
+    def test_logarithm(self):
+        self.assertAlmostEqual(log(2, 8), 3)
+        self.assertAlmostEqual(log(10, 100), 2)
+        self.assertAlmostEqual(log(5, 1), 0)
 
-    # def test_logarithm(self): # 3 assertions
-    #     fill in code
-
-    # def test_log_invalid_base(self): # 1 assertion
-    #     # use same technique from test_divide_by_zero
-    #     fill in code
-    # ##########################
+    def test_log_invalid_base(self):
+        with self.assertRaises(ValueError):
+            log(1, 5)
     
     ######## Partner 1
     # def test_log_invalid_argument(self): # 1 assertion
