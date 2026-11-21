@@ -1,3 +1,7 @@
+# the other thing i have to put
+#Partner 1: Gabriel Martinez
+#Partner 2: Arianna Casanova-Silva
+
 import math
 
 def square_root(a):
