@@ -47,17 +47,17 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
             log(-2,8)
 
-        def test_hypotenuse(self):
-            self.assertEqual(hypotenuse(3,4), 5)
-            self.assertEqual(hypotenuse(-3,-4), 5)
-            self.asserAlmostEqual(hypotenuse(1, 1), 1.41421356, places = 5)
+    def test_hypotenuse(self):
+        self.assertEqual(hypotenuse(3,4), 5)
+        self.assertEqual(hypotenuse(-3,-4), 5)
+        self.assertAlmostEqual(hypotenuse(1, 1), 1.41421356, places = 5)
 
-        def test_sqrt(self):
-            self.assertEqual(square_root(16), 4)
-            self.assertEqual(square_root(0), 0)
-            self.assertAlmostEqual(square_root(2), 1.41421356, places = 5)
-            with self.assertRaises(ValueError):
-                square_root(-2)
+    def test_sqrt(self):
+        self.assertEqual(square_root(16), 4)
+        self.assertEqual(square_root(0), 0)
+        self.assertAlmostEqual(square_root(2), 1.41421356, places = 5)
+        with self.assertRaises(ValueError):
+            square_root(-2)
 
 
 
