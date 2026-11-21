@@ -1,3 +1,5 @@
+print('HELLO')
+
 import unittest
 from calculator import *
 
