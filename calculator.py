@@ -1,7 +1,7 @@
 #https://github.com/gabrielmartinez640/Lab11-ACS-GMC
 #Partner 1: Gabriel Martinez
 #Partner 2: Arianna Casanova-Silva
-
+import unittest
 import math
 
 def square_root(a):
@@ -15,7 +15,7 @@ def hypotenuse(a, b):
 def add(a, b): 
     return a + b
 
-def sub(a, b):
+def substract(a, b):
     return a - b
 
 def mul(a, b):
@@ -26,7 +26,7 @@ def div(a, b):
         raise ZeroDivisionError('division by zero')
     return b / a
 
-def log(a, b):
+def logarithm(a, b):
     if b <= 0:
         raise ValueError('argument has to be postive')
     if a <= 0 or a == 1:
