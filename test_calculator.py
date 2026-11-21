@@ -1,3 +1,7 @@
+#https://github.com/gabrielmartinez640/Lab11-ACS-GMC
+#Partner 1: Gabriel Martinez
+#Partner 2: Arianna Casanova-Silva
+
 import unittest
 from calculator import *
 
